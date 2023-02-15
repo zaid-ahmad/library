@@ -1,0 +1,27 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaidahmad25/library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaidahmad25/library/issues"
+  },
+  "homepage": "https://github.com/zaidahmad25/library#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-alpha13"
+  }
+}
